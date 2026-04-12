@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>About | Twyla Nunes-Ueno</title>
+    <meta
+      name="description"
+      content="Bio, site purpose, background, and career goals for Twyla Nunes-Ueno."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="logo" href="index.html">Twyla Nunes-Ueno</a>
+      <button
+        type="button"
+        class="nav-toggle"
+        aria-expanded="false"
+        aria-controls="site-nav"
+      >
+        Menu
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Primary">
+        <ul>
+          <li><a href="index.html">Welcome</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="education.html">Education &amp; Experience</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h1 class="page-title">About Me</h1>
+
+      <article class="prose">
+
+        <h2>My Story</h2>
+        <p>
+          My interest in assistive technology started when I had the opportunity to work with individuals who relied on custom-built devices in their daily lives. While volunteering with EasterSeals Disability & Community Services, I helped design, assemble, and test assistive electronic devices for people with physical disabilities. Seeing those devices move from schematics and components to tools that supported real independence changed how I thought about engineering. It showed me that thoughtful design isn’t just technical — it’s deeply human.
+        </p>
+        <p>
+          Since then, I’ve been drawn to hands-on engineering work that blends design, testing, and problem-solving. I’ve contributed to research and development efforts designing diagnostic tests in an industry lab environment, built autonomous robotics systems that required careful iteration and real-world testing, and developed technical projects that strengthened my skills in CAD modeling, electronics, and system integration. Across each experience, I’ve learned that the best engineering solutions come from persistence, precision, and a willingness to keep improving a design until it works reliably.
+        </p>
+        <p>
+          Outside of academics, I love to make and solve crossword puzzles, play ultimate frisbee, and try new foods!
+        </p>
+
+        <h2>Career goals</h2>
+        <p>
+          My long-term goal is to design prosthetics and assistive technologies that are durable, accessible, and tailored to the people who use them. I’m especially interested in creating systems that bridge the gap between engineering and healthcare — technology that doesn’t just function, but improves independence, mobility, and quality of life.
+          At the core, I’m motivated by the idea that engineering can empower people — and I want to build the tools that make that possible
+        </p>
+  
+
+        <h3>Timeline</h3>
+        <div class="timeline">
+          <div class="timeline-item">
+            <h3>2025–2026</h3>
+            <p class="timeline-meta">Foundation and first industry experience</p>
+            <p>
+              Excel in core ECE coursework, secure a Summer 2026 internship in
+              a hardware- or systems-heavy role, and continue the Autonomous
+              Robotics / Discovery Project through showcase-quality
+              documentation and demo media.
+            </p>
+          </div>
+          <div class="timeline-item">
+            <h3>2027–2028</h3>
+            <p class="timeline-meta">Depth, leadership, and specialization</p>
+            <p>
+              Pursue advanced electives aligned with controls, robotics, or
+              power; seek research, competition teams, or additional internships;
+              grow leadership through project teams or student organizations.
+            </p>
+          </div>
+          <div class="timeline-item">
+            <h3>2029 and beyond</h3>
+            <p class="timeline-meta">Graduation and early career</p>
+            <p>
+              Graduate with a portfolio that proves repeatable engineering
+              habits; target full-time roles that stretch toward systems
+              integration, transportation technology, or safety-critical product
+              development—while staying open to graduate study if research
+              questions pull me that direction.
+            </p>
+          </div>
+        </div>
+
+        <p>
+          If you would like to connect, use the
+          <a href="contact.html">Contact</a> page or email me at
+          <a href="mailto:tnunesueno3@gatech.edu">tnunesueno3@gatech.edu</a>.
+        </p>
+      </article>
+    </main>
+
+    <footer class="site-footer">
+      <p style="margin-top: 1rem">
+        © <span id="y"></span> Twyla Nunes-Ueno ·
+        <a href="mailto:tnunesueno3@gatech.edu">tnunesueno3@gatech.edu</a>
+      </p>
+      <script>
+        document.getElementById("y").textContent = new Date().getFullYear();
+      </script>
+    </footer>
+
+    <script src="js/data.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

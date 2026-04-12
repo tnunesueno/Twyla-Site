@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contact | Twyla Nunes-Ueno</title>
+    <meta
+      name="description"
+      content="Get in touch with Twyla Nunes-Ueno — email, phone, and resume."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="logo" href="index.html">Twyla Nunes-Ueno</a>
+      <button
+        type="button"
+        class="nav-toggle"
+        aria-expanded="false"
+        aria-controls="site-nav"
+      >
+        Menu
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Primary">
+        <ul>
+          <li><a href="index.html">Welcome</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="education.html">Education &amp; Experience</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h1 class="page-title">Contact</h1>
+
+      <div class="contact-grid">
+        <article class="exp-card">
+          <h3 style="margin-top: 0">Email</h3>
+          <p>
+            <a href="mailto:tnunesueno3@gatech.edu">tnunesueno3@gatech.edu</a>
+          </p>
+        </article>
+
+        <article class="exp-card">
+          <h3 style="margin-top: 0">Phone</h3>
+          <p>
+            <a href="tel:+12065029832">+1 (206) 502-9832</a>
+          </p>
+        </article>
+
+        <article class="exp-card">
+          <h3 style="margin-top: 0">LinkedIn</h3>
+          <p>
+            <a href="https://www.linkedin.com/in/twyla-nunes-ueno-656a4432a/">Twyla Nunes-Ueno</a>
+          </p>
+        </article>
+
+        <article class="exp-card">
+          <h3 style="margin-top: 0">GitHub</h3>
+          <p>
+            <a href="https://github.com/tnunesueno">tnunesueno</a>
+          </p>
+        </article>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <p>
+        © <span id="y"></span> Twyla Nunes-Ueno ·
+        <a href="mailto:tnunesueno3@gatech.edu">tnunesueno3@gatech.edu</a>
+      </p>
+      <script>
+        document.getElementById("y").textContent = new Date().getFullYear();
+      </script>
+    </footer>
+
+    <script src="js/data.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

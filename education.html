@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Education &amp; Experience | Twyla Nunes-Ueno</title>
+    <meta
+      name="description"
+      content="Georgia Tech education and professional experience."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="logo" href="index.html">Twyla Nunes-Ueno</a>
+      <button
+        type="button"
+        class="nav-toggle"
+        aria-expanded="false"
+        aria-controls="site-nav"
+      >
+        Menu
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Primary">
+        <ul>
+          <li><a href="index.html">Welcome</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="education.html">Education &amp; Experience</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h1 class="page-title">Education &amp; Experience</h1>
+
+      <section class="prose" id="education-section">
+        <h2>Education</h2>
+        <div class="education-grid">
+          <div class="exp-card">
+            <h3 style="margin-top: 0">Georgia Institute of Technology</h3>
+            <p class="org">Bachelor of Science in Electrical Engineering</p>
+            <p class="when">Atlanta, GA · August 2025 – Present</p>
+            <p>
+              <strong>Expected graduation:</strong> May 2029 ·
+              <strong>GPA:</strong> 4.00
+            </p>
+            <p>
+              <strong>Relevant coursework:</strong> Digital System Design, Introduction to Computing, Linear Algebra, ECE Discovery Studio 
+            </p>
+          </div>
+
+          <div class="exp-card">
+            <h3 style="margin-top: 0">Drexel University</h3>
+            <p class="org">Drexel Bridge Academy - Dual Enrollment</p>
+            <p class="when">Philadelphia, PA · May 2021 – June 2025</p>
+            <p>
+              <strong>GPA:</strong> 4.00
+            </p>
+          </div>
+        </div>
+      </section>
+      
+      <section>
+        <h2 class="page-title" style="font-size: 1.35rem">Experience</h2>
+        <div class="experience-grid" id="experience-list-root"></div>
+      </section>
+
+      <section class="prose" style="margin-top: 2rem">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-category">
+            <h3>Programming</h3>
+            <p>Java, Python, C, C#, JavaScript, Node.js, CSS, HTML, Arduino IDE</p>
+          </div>
+          <div class="skill-category">
+            <h3>Platforms</h3>
+            <p>Google Developer Platform, Google Tag Analytics, Firebase, Excel</p>
+          </div>
+          <div class="skill-category">
+            <h3>Hardware</h3>
+            <p>Raspberry Pi, Arduino, soldering, multimeter testing</p>
+          </div>
+          <div class="skill-category">
+            <h3>Software tools</h3>
+            <p>Fusion 360 (certified), SolidWorks (proficient), GitHub</p>
+          </div>
+          <div class="skill-category">
+            <h3>Languages</h3>
+            <p>English, Portuguese, Spanish, Japanese (see resume for proficiency levels)</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p style="margin-top: 1rem">
+        © <span id="y"></span> Twyla Nunes-Ueno ·
+        <a href="mailto:tnunesueno3@gatech.edu">tnunesueno3@gatech.edu</a>
+      </p>
+      <script>
+        document.getElementById("y").textContent = new Date().getFullYear();
+      </script>
+    </footer>
+
+    <script src="js/data.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
