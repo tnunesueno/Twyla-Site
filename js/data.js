@@ -85,7 +85,7 @@ window.PORTFOLIO_DATA = {
       slug: "autonomous-robotics",
       title: "Autonomous Robotics Project",
       date: "Fall 2025",
-      featured: true,
+      featured: false,
       tagline:
         "Two-person team: modular Python control software for maze navigation, autonomous delivery, and maneuvers such as parallel parking under real-world physical constraints.",
       tech: ["Python", "Robotics", "Testing & validation", "Team collaboration"],
@@ -126,12 +126,33 @@ window.PORTFOLIO_DATA = {
       ],
     },
     {
-      slug: "Rube Goldberg Machine",
-      title: "Rube Goldberg Machine",
-      date: "Spring ",
+      slug: "Ring",
+      title: "Stainless Steel Ring - Crafted on Lathe",
+      date: "Spring 2025",
       featured: false,
       tagline:
-        "Complex machine built to make the simplest task complicated",
+        "Entry-level lathe project to learn the tool.",
+      tech: ["Lathe", "Fusion360", "CAD"],
+      links: [],
+      images: [
+        {
+          src: "SPXL_20240605_013713682.jpg",
+          alt: "image of the ring with its 3d model",
+          caption:
+            "My beautiful ring with its beautful CAD model",
+        },
+      ],
+      overviewParagraphs: [
+        "I wanted to learn how to use a lathe, so I started with this basic stainless steel ring. I designed what I wanted it to look like in Fusion 360, then used a lathe to carve my design out of a steel rod.",
+      ],
+    },
+    {
+      slug: "Rube Goldberg Machine",
+      title: "Rube Goldberg Machine",
+      date: "Spring 2024",
+      featured: false,
+      tagline:
+        "Complex machine built to make the simplest task complicated.",
       tech: ["Fusion360, Arduino"],
       links: [],
       images: [
@@ -151,6 +172,33 @@ window.PORTFOLIO_DATA = {
       overviewParagraphs: [
         "I worked as part of a class-wide team to design and build a large Rube Goldberg machine that completed a simple task - frying an egg - through a long chain reaction. I contributed by programming Arduino components, designing custom parts in Fusion 360 for 3D printing, and helping build and test different mechanical elements. This project gave me hands-on experience combining coding, 3D modeling, and physical construction while collaborating with others to make sure each stage connected smoothly.",
         "My engineering class broke the school record, completing the task on our machine's very first full run!"
+      ],
+    },
+    {
+      slug: "Fall Friend",
+      title: "Fall Friend",
+      date: "Spring 2023",
+      featured: false,
+      tagline:
+        "Arduino-based SMS alert system built to help seniors get assistance from emergency contacts in the case of falls.",
+      tech: ["Fusion360, Arduino"],
+      links: [],
+      images: [
+        {
+          src: "Attachment.png",
+          alt: "A person wearing an arduino duct taped to their chest.",
+          caption:
+            "My groupmate ready to test our device.",
+        },
+        {
+          src: "Screenshot 2026-03-30 211344.png",
+          alt: "Schematic",
+          caption:
+            "A diagram of our schematic.",
+        },
+      ],
+      overviewParagraphs: [
+        "Fall detection device designed to send SMS alerts to emergency contacts. I used an ESP32 and an accelerometer to assemble this simple gadget, programmed it in C, and integrated AdaFruit to manage an SMS alert system and an app-based interface. "
       ],
     },
   ],
