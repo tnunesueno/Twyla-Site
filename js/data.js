@@ -125,5 +125,33 @@ window.PORTFOLIO_DATA = {
         "On the data side, I integrated JSON and REST APIs so user-contributed information could be stored and rendered geospatially. That meant thinking about validation, consistency, and how the UI should behave when data was sparse or loading slowly. The project strengthened my full-stack instincts and my respect for humane design in infrastructure-adjacent tools—maps are everyday systems people rely on when plans change.",
       ],
     },
+    {
+      slug: "Rube Goldberg Machine",
+      title: "Rube Goldberg Machine",
+      date: "Spring ",
+      featured: false,
+      tagline:
+        "Complex machine built to make the simplest task complicated",
+      tech: ["Fusion360, Arduino"],
+      links: [],
+      images: [
+        {
+          src: "PXL_20240307_132208115.jpg",
+          alt: "One section of machine",
+          caption:
+            "My groups's section - one of 6.",
+        },
+        {
+          src: "PXL_20240307_134026177.jpg",
+          alt: "Full machine",
+          caption:
+            "The machine fully assembled",
+        },
+      ],
+      overviewParagraphs: [
+        "I worked as part of a class-wide team to design and build a large Rube Goldberg machine that completed a simple task - frying an egg - through a long chain reaction. I contributed by programming Arduino components, designing custom parts in Fusion 360 for 3D printing, and helping build and test different mechanical elements. This project gave me hands-on experience combining coding, 3D modeling, and physical construction while collaborating with others to make sure each stage connected smoothly.",
+        "My engineering class broke the school record, completing the task on our machine's very first full run!"
+      ],
+    },
   ],
 };
