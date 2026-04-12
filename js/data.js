@@ -99,12 +99,8 @@ window.PORTFOLIO_DATA = {
         },
       ],
       overviewParagraphs: [
-        "The Autonomous Robotics Project is the centerpiece of my hands-on work in electrical and computer engineering at Georgia Tech: a two-person effort to program a mobile robot that can navigate mazes, complete autonomous delivery-style tasks, and execute structured maneuvers such as parallel parking. The assignment mirrors challenges seen in transportation and logistics—planning motion under uncertainty, respecting physical limits, and proving reliability through measurement rather than intuition alone. My teammate and I treated the robot as a small-scale systems integration problem: sensing, actuation, control logic, and software architecture all had to work together, or the whole platform failed in repeatable, embarrassing ways during demo runs.",
-        "From a software perspective, I focused on building modular control code in Python rather than a single monolithic script. Early on, we learned that tangled logic made debugging nearly impossible when hardware quirks appeared—wheel slip, sensor noise, or timing drift. Splitting responsibilities into clear modules (for example, separating high-level task planning from low-level motor commands and sensor interpretation) let us swap implementations, run targeted tests, and reason about failures. The codebase grew to over a thousand lines, not for complexity’s own sake, but because we were encoding real behaviors: turning sequences, stopping criteria, recovery paths when a segment overshot, and state transitions as the robot moved through maze segments or delivery waypoints.",
-        "Testing became its own engineering discipline. We ran more than a hundred structured test passes, logging outcomes and iteratively tightening parameters. I tracked simple reliability metrics—success rate per scenario, average completion time, and failure modes (collision, stall, timeout)—so we could tell whether a change actually improved performance or only looked better on one lucky run. That habit connects directly to how I want to work in industry: operational safety and infrastructure systems depend on traceable validation, not heroics. The same mindset I used at EasterSeals—inspect, test, document—showed up here at higher speed and with more automation.",
-        "Results improved measurably over the semester: fewer catastrophic mis-steers in tight maze sections, smoother transitions between tasks, and more consistent parking attempts under the constraints we were given. The project also sharpened my communication skills: dividing ownership, reconciling two mental models of the same bug, and presenting a coherent story about what the robot could (and could not) do honestly. Looking ahead, I want roles that blend hardware awareness with disciplined software—whether in transportation, robotics, or large-scale systems where failure has real cost. This project is the practical bridge between classroom theory and that goal.",
-        "For recruiters and collaborators, the takeaway is straightforward: I can ship structured code under physical constraints, design experiments that justify design decisions, and collaborate tightly on an embedded-adjacent system. As the Discovery Project evolves toward the showcase deadline, I expect to extend this section with additional media—diagrams, video, or poster content—while keeping the same emphasis on reproducible testing and clear attribution of team contributions.",
-        "If you are evaluating this portfolio for a course or an interview, the thread that ties the narrative together is operational seriousness: define the behavior, instrument the tests, compare before and after, and document what changed. That is the same standard I want to bring to internships and early-career roles in transportation, robotics, or infrastructure-adjacent engineering teams.",
+        "I worked on a two-person autonomous robotics project where we programmed a mobile robot to navigate mazes, complete delivery-style tasks, and perform maneuvers such as parallel parking. I focused on writing modular Python code that separated high-level planning, sensor input, and motor control. Breaking the system into smaller components made it easier to debug hardware issues like wheel slip and sensor noise, and allowed us to test individual behaviors before combining them into full task sequences.",
+        "Throughout the project, I helped run over 100 structured test trials and tracked simple performance metrics such as success rate, completion time, and common failure modes. We used this data to refine parameters and improve reliability across different scenarios. This project gave me practical experience working through an iterative engineering process—designing behaviors, testing them systematically, and adjusting the system based on measured results."
       ],
     },
     {
@@ -118,10 +114,10 @@ window.PORTFOLIO_DATA = {
       links: [{ href: "https://where2whizz.com", label: "Visit where2whizz.com" }],
       images: [
         {
-          src: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/World_map_blank_without_borders.svg/640px-World_map_blank_without_borders.svg.png",
-          alt: "Simplified world map graphic suggesting global coverage of the mapping project.",
+          src: "Screenshot 2026-03-30 210349.png",
+          alt: "Screenshot of where to whizz",
           caption:
-            "Blank world map (Eric Gaba / Wikimedia Commons, CC BY-SA 3.0)—decorative context for a geospatial UI project.",
+            "Look at my interface!",
         },
       ],
       overviewParagraphs: [
