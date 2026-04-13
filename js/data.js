@@ -124,7 +124,7 @@ window.PORTFOLIO_DATA = {
       links: [],
       images: [
         {
-          src: "SPXL_20240605_013713682.jpg",
+          src: "PXL_20240605_013713682.jpg",
           alt: "image of the ring with its 3d model",
           caption:
             "My beautiful ring with its beautful CAD model",
