@@ -32,18 +32,6 @@ window.PORTFOLIO_DATA = {
       ],
     },
     {
-      title: "Warehouse Associate",
-      org: "Pandemic Pantry",
-      location: "Philadelphia, PA",
-      dates: "February 2025 – August 2025",
-      summary:
-        "Grocery warehouse packing large orders for customer pickup in a high-throughput environment.",
-      bullets: [
-        "Loaded, unloaded, and stocked inventory, including operating pallet jacks safely.",
-        "Worked in indoor and outdoor conditions with exposure to varying weather and temperatures.",
-      ],
-    },
-    {
       title: "Fellow, Murphy Laboratory",
       org: "The Wistar Institute",
       location: "Philadelphia, PA",
