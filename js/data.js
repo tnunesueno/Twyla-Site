@@ -141,7 +141,7 @@ window.PORTFOLIO_DATA = {
       featured: false,
       tagline:
         "Complex machine built to make the simplest task complicated.",
-      tech: ["Fusion360, Arduino"],
+      tech: ["Fusion360", "Arduino"],
       links: [],
       images: [
         {
