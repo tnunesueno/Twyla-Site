@@ -44,6 +44,19 @@ window.PORTFOLIO_DATA = {
       ],
     },
     {
+      title: "Research Affiliate, Concepts and Cognition Laboratory",
+      org: "Temple University",
+      location: "Philadelphia, PA",
+      dates: "September 2024 - May 2025",
+      summary:
+        "Interdisciplinary laboratory specializing in the studies of language, semantic memory, and the treatment of progressive language impairment in dementia. ",
+      bullets: [
+        "Supported experimental design and computational analysis of linguistic datasets.",
+        "Performed structured data processing, evaluation and documentation using Python-based tools and LLMs.",
+        "Assisted in validating outputs and documenting results for reproducibility."
+      ],
+    },
+    {
       title: " Reserach and Development Intern",
       org: "Invisible Sentinel",
       location: "Philadelphia, PA",
