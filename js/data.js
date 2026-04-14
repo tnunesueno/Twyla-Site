@@ -169,6 +169,12 @@ window.PORTFOLIO_DATA = {
           caption:
             "The machine fully assembled",
         },
+        {
+          src: "Screenshot 2026-04-14 143456.png",
+          alt: "CAD model",
+          caption:
+            "Our ful CAD model",
+        },
       ],
       overviewParagraphs: [
         "I worked as part of a class-wide team to design and build a large Rube Goldberg machine that completed a simple task - frying an egg - through a long chain reaction. I contributed by programming Arduino components, designing custom parts in Fusion 360 for 3D printing, and helping build and test different mechanical elements. This project gave me hands-on experience combining coding, 3D modeling, and physical construction while collaborating with others to make sure each stage connected smoothly.",
