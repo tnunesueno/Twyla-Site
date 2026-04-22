@@ -103,11 +103,18 @@ window.PORTFOLIO_DATA = {
           alt: "A humanoid robot sculpture exhibited indoors, used here as a thematic visual for robotics work.",
           caption:
             "Training my model!",
+        }, //
+        {
+          src: "Screenshot 2026-04-22 173312.png",
+          alt: "A humanoid robot sculpture exhibited indoors, used here as a thematic visual for robotics work.",
+          caption:
+            "My Fusion model for laser cutting.",
         },
       ],
       overviewParagraphs: [
         "I built a small automated sorter that separates Lucky Charms cereal from the marshmallows using an Arduino Uno and Google’s Teachable Machine. I created a simple computer vision model that could recognize the difference between cereal pieces and marshmallows, then connected that model to a physical sorting mechanism. The system used a camera to identify each piece and trigger the Arduino to move a servo that directed it into the correct bin.",
         "This project was my introduction to combining machine learning with embedded hardware. I trained my own image classifier in Teachable Machine by collecting and labeling sample images of cereal and marshmallows, then exported the model so it could run alongside my Arduino-based control system. Building the physical sorter helped me learn how to coordinate sensors, actuators, and timing logic, and how to troubleshoot when the software and hardware didn’t behave as expected.",
+        "At first, I build the housing for my servo out of a few pieces of paper, which held it in front of my webcam. This worked okay, but I wanted a better and more professional looking physical solution, so I laser cut a similar shape out of wood.",
         "Through this project, I gained hands-on experience with Arduino programming, serial communication, and basic machine learning workflows. It also pushed me to think creatively about how software decisions translate into physical movement. Most importantly, it gave me confidence working with microcontrollers and showed me how approachable machine learning tools can be when paired with simple hardware projects."
       ],
     },
