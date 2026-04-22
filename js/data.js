@@ -104,12 +104,6 @@ window.PORTFOLIO_DATA = {
           caption:
             "Training my model!",
         },
-        {
-          src: "PXL_20260407_161245951.jpg",
-          alt: "A humanoid robot sculpture exhibited indoors, used here as a thematic visual for robotics work.",
-          caption:
-            "Training my model!",
-        },
       ],
       overviewParagraphs: [
         "I built a small automated sorter that separates Lucky Charms cereal from the marshmallows using an Arduino Uno and Google’s Teachable Machine. I created a simple computer vision model that could recognize the difference between cereal pieces and marshmallows, then connected that model to a physical sorting mechanism. The system used a camera to identify each piece and trigger the Arduino to move a servo that directed it into the correct bin.",
