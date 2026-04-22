@@ -83,6 +83,41 @@ window.PORTFOLIO_DATA = {
 
   projects: [
     {
+      slug: "sorter",
+      title: "Cereal Sorter",
+      date: "Spring 2026",
+      featured: true,
+      tagline:
+        "Artificial intelligence based sorter, made to separate Lucky Charms marshmallows away from the cereal.",
+      tech: ["p5.js", "Arduino", "Testing & validation", "Machine learning"],
+      links: [],
+      images: [
+        {
+          src: "PXL_20260416_021545230.jpg",
+          alt: "A humanoid robot sculpture exhibited indoors, used here as a thematic visual for robotics work.",
+          caption:
+            "I finally laser cut a stand for it.",
+        },
+        {
+          src: "PXL_20260407_161245951.jpg",
+          alt: "A humanoid robot sculpture exhibited indoors, used here as a thematic visual for robotics work.",
+          caption:
+            "Training my model!",
+        },
+        {
+          src: "PXL_20260407_161245951.jpg",
+          alt: "A humanoid robot sculpture exhibited indoors, used here as a thematic visual for robotics work.",
+          caption:
+            "Training my model!",
+        },
+      ],
+      overviewParagraphs: [
+        "I built a small automated sorter that separates Lucky Charms cereal from the marshmallows using an Arduino Uno and Google’s Teachable Machine. I created a simple computer vision model that could recognize the difference between cereal pieces and marshmallows, then connected that model to a physical sorting mechanism. The system used a camera to identify each piece and trigger the Arduino to move a servo that directed it into the correct bin.",
+        "This project was my introduction to combining machine learning with embedded hardware. I trained my own image classifier in Teachable Machine by collecting and labeling sample images of cereal and marshmallows, then exported the model so it could run alongside my Arduino-based control system. Building the physical sorter helped me learn how to coordinate sensors, actuators, and timing logic, and how to troubleshoot when the software and hardware didn’t behave as expected.",
+        "Through this project, I gained hands-on experience with Arduino programming, serial communication, and basic machine learning workflows. It also pushed me to think creatively about how software decisions translate into physical movement. Most importantly, it gave me confidence working with microcontrollers and showed me how approachable machine learning tools can be when paired with simple hardware projects."
+      ],
+    },
+    {
       slug: "autonomous-robotics",
       title: "Autonomous Robotics Project",
       date: "Fall 2025",
