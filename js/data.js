@@ -109,6 +109,12 @@ window.PORTFOLIO_DATA = {
           alt: "A humanoid robot sculpture exhibited indoors, used here as a thematic visual for robotics work.",
           caption:
             "My Fusion model for laser cutting.",
+        }, // PXL_20260407_160306375.jpg
+        {
+          src: "PXL_20260407_160306375.jpg",
+          alt: "A humanoid robot sculpture exhibited indoors, used here as a thematic visual for robotics work.",
+          caption:
+            "My initial sorter was just folded out of paper.",
         },
       ],
       overviewParagraphs: [
