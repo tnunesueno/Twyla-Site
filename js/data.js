@@ -89,7 +89,7 @@ window.PORTFOLIO_DATA = {
       featured: true,
       tagline:
         "Artificial intelligence based sorter, made to separate Lucky Charms marshmallows away from the cereal.",
-      tech: ["p5.js", "Arduino", "Testing & validation", "Machine learning"],
+      tech: ["p5.js", "Arduino", "Testing & validation", "Machine learning", "Fusion360", "Laser Cutting"],
       links: [],
       images: [
         {
