@@ -115,6 +115,12 @@ window.PORTFOLIO_DATA = {
           alt: "A humanoid robot sculpture exhibited indoors, used here as a thematic visual for robotics work.",
           caption:
             "My initial sorter was just folded out of paper.",
+        },//Screenshot 2026-04-22 171522.png
+        {
+          src: "Screenshot 2026-04-22 171522.png",
+          alt: "A humanoid robot sculpture exhibited indoors, used here as a thematic visual for robotics work.",
+          caption:
+            "Code snippet from the Arduino side.",
         },
       ],
       overviewParagraphs: [
