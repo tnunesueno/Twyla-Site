@@ -18,7 +18,7 @@
   </head>
   <body>
     <header class="site-header">
-      <a class="logo" href="index.html">Twyla Nunes-Ueno</a>
+      <a class="logo" href="#welcome">Twyla Nunes-Ueno</a>
       <button
         type="button"
         class="nav-toggle"
@@ -29,27 +29,28 @@
       </button>
       <nav class="site-nav" id="site-nav" aria-label="Primary">
         <ul>
-          <li><a href="index.html">Welcome</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="projects.html">Projects</a></li>
-          <li><a href="education.html">Education &amp; Experience</a></li>
-          <li><a href="resume.html">Resume</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="#welcome">Welcome</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#education">Education &amp; Experience</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </header>
 
     <main>
-      <section class="hero">
+      <!-- WELCOME SECTION -->
+      <section id="welcome" class="hero">
         <div class="hero-text">
-          <h1> I’m Twyla, an <span class="hero-highlight">Electrical Engineering</span> student at Georgia Tech.</h1>
+          <h1> I'm Twyla, an <span class="hero-highlight">Electrical Engineering</span> student at Georgia Tech.</h1>
           <br>
           <p class="lead">
-            I’m interested in creating technology that is inclusive, user-centered, and impactful—whether through web applications, assistive devices, or data-driven tools.
+            I'm interested in creating technology that is inclusive, user-centered, and impactful—whether through web applications, assistive devices, or data-driven tools.
           </p>
           <div class="hero-actions">
-            <a class="hero-button" href="projects.html">View projects</a>
-            <a class="hero-link" href="contact.html">Say hello</a>
+            <a class="hero-button" href="#projects">View projects</a>
+            <a class="hero-link" href="#contact">Say hello</a>
           </div>
         </div>
         <figure class="hero-card">
@@ -61,6 +62,373 @@
           />
         </figure>
       </section>
+
+      <!-- ABOUT SECTION -->
+      <section id="about">
+        <h1 class="page-title">About Me</h1>
+
+        <article class="prose">
+
+          <h2>My Story</h2>
+          <p>
+            My interest in assistive technology started when I had the opportunity to work with individuals who relied on custom-built devices in their daily lives. While volunteering with EasterSeals Disability & Community Services, I helped design, assemble, and test assistive electronic devices for people with physical disabilities. Seeing those devices move from schematics and components to tools that supported real independence changed how I thought about engineering. It showed me that thoughtful design isn't just technical — it's deeply human.
+          </p>
+          <p>
+            Since then, I've been drawn to hands-on engineering work that blends design, testing, and problem-solving. I've contributed to research and development efforts designing diagnostic tests in an industry lab environment, built autonomous robotics systems that required careful iteration and real-world testing, and developed technical projects that strengthened my skills in CAD modeling, electronics, and system integration. Across each experience, I've learned that the best engineering solutions come from persistence, precision, and a willingness to keep improving a design until it works reliably.
+          </p>
+          <p>
+            Outside of academics, I love to make and solve crossword puzzles, play ultimate frisbee, and try new foods!
+          </p>
+
+          <h2>Career goals</h2>
+          <p>
+            My long-term goal is to design prosthetics and assistive technologies that are durable, accessible, and tailored to the people who use them. I'm especially interested in creating systems that bridge the gap between engineering and healthcare — technology that doesn't just function, but improves independence, mobility, and quality of life.
+            At the core, I'm motivated by the idea that engineering can empower people — and I want to build the tools that make that possible.
+          </p>
+    
+
+          <h3>Timeline</h3>
+          <div class="timeline">
+            <div class="timeline-item">
+              <h3>2025–2026</h3>
+              <p class="timeline-meta">Foundation and first industry experience</p>
+              <p>
+                Excel in core ECE coursework, secure a Summer 2026 internship in
+                a hardware- or systems-heavy role, and continue the Autonomous
+                Robotics / Discovery Project through showcase-quality
+                documentation and demo media.
+              </p>
+            </div>
+            <div class="timeline-item">
+              <h3>2027–2028</h3>
+              <p class="timeline-meta">Depth, leadership, and specialization</p>
+              <p>
+                Pursue advanced electives aligned with controls, robotics, or
+                power; seek research, competition teams, or additional internships;
+                grow leadership through project teams or student organizations.
+              </p>
+            </div>
+            <div class="timeline-item">
+              <h3>2029 and beyond</h3>
+              <p class="timeline-meta">Graduation and early career</p>
+              <p>
+                Graduate with a portfolio that proves repeatable engineering
+                habits; target full-time roles that stretch toward systems
+                integration, transportation technology, or safety-critical product
+                development—while staying open to graduate study if research
+                questions pull me that direction.
+              </p>
+            </div>
+          </div>
+
+          <p>
+            If you would like to connect, use the
+            <a href="#contact">Contact</a> section or email me at
+            <a href="mailto:tnunesueno3@gatech.edu">tnunesueno3@gatech.edu</a>.
+          </p>
+        </article>
+      </section>
+
+      <!-- PROJECTS SECTION -->
+      <section id="projects">
+        <h1 class="page-title">Projects</h1>
+        <div class="projects-grid" id="project-list-root"></div>
+      </section>
+
+      <!-- PROJECT MODAL -->
+      <div id="project-modal" class="project-modal" style="display: none;">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+          <button class="modal-close" aria-label="Close project details">×</button>
+          <div class="modal-nav">
+            <button class="nav-prev" aria-label="Previous project">← Previous</button>
+            <button class="nav-next" aria-label="Next project">Next →</button>
+          </div>
+          <div id="modal-project-content"></div>
+        </div>
+      </div>
+
+      <!-- EDUCATION & EXPERIENCE SECTION -->
+       <br>
+       <br>
+      <section id="education">
+        <h1 class="page-title">Education &amp; Experience</h1>
+
+        <section class="prose">
+          <h2>Education</h2>
+          <div class="education-grid">
+            <div class="exp-card">
+              <h3 style="margin-top: 0">Georgia Institute of Technology</h3>
+              <p class="org">Bachelor of Science in Electrical Engineering</p>
+              <p class="when">Atlanta, GA · August 2025 – Present</p>
+              <p>
+                <strong>Expected graduation:</strong> May 2029 ·
+                <strong>GPA:</strong> 4.00
+              </p>
+              <p>
+                <strong>Relevant coursework:</strong> Digital System Design, Introduction to Computing, Linear Algebra, ECE Discovery Studio 
+              </p>
+            </div>
+
+            <div class="exp-card">
+              <h3 style="margin-top: 0">Drexel University</h3>
+              <p class="org">Drexel Bridge Academy - Dual Enrollment</p>
+              <p class="when">Philadelphia, PA · May 2021 – June 2025</p>
+              <p>
+                <strong>GPA:</strong> 4.00
+              </p>
+            </div>
+          </div>
+        </section>
+        
+        <section>
+          <h2 style="font-size: 1.35rem">Experience</h2>
+          <div class="experience-grid" id="experience-list-root"></div>
+        </section>
+
+        <section class="prose" style="margin-top: 2rem">
+          <h2>Skills</h2>
+          <div class="skills-grid">
+            <div class="skill-category">
+              <h3>Programming</h3>
+              <p>Java, Python, C, C#, JavaScript, Node.js, CSS, HTML, Arduino IDE</p>
+            </div>
+            <div class="skill-category">
+              <h3>Platforms</h3>
+              <p>Google Developer Platform, Google Tag Analytics, Firebase, Excel</p>
+            </div>
+            <div class="skill-category">
+              <h3>Hardware</h3>
+              <p>Raspberry Pi, Arduino, soldering, multimeter testing</p>
+            </div>
+            <div class="skill-category">
+              <h3>Software tools</h3>
+              <p>Fusion 360 (certified), SolidWorks (proficient), GitHub</p>
+            </div>
+            <div class="skill-category">
+              <h3>Languages</h3>
+              <p>English, Portuguese, Spanish, Japanese (see resume for proficiency levels)</p>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <!-- RESUME SECTION -->
+       <br>
+       <br>
+      <section id="resume">
+        <h1 class="page-title">Resume</h1>
+
+        <div class="resume-actions">
+          <a
+            class="btn btn-primary"
+            href="assets/Twyla-Nunes-Ueno-Resume.pdf"
+            download="Twyla-Nunes-Ueno-Resume.pdf"
+            >Download PDF</a
+          >
+          <a class="btn btn-secondary" href="mailto:tnunesueno3@gatech.edu"
+            >Email me</a
+          >
+        </div>
+
+        <article class="resume-sheet" aria-label="Resume content">
+          <h1>Twyla S. Nunes-Ueno</h1>
+          <p class="contact-line">
+            Seattle, WA | +1 (206) 502-9832 |
+            <a href="mailto:tnunesueno3@gatech.edu">tnunesueno3@gatech.edu</a> |
+            US Citizen
+          </p>
+
+          <h2>Objective</h2>
+          <p>
+            Electrical Engineering student with hands-on hardware, robotics, and
+            field experience seeking a Summer 2026 Engineering Internship.
+            Interested in infrastructure systems, operational safety, and
+            large-scale transportation engineering.
+          </p>
+
+          <h2>Education</h2>
+          <h3>Georgia Institute of Technology</h3>
+          <p class="resume-meta">Atlanta, GA · August 2025 – Present</p>
+          <p>
+            Bachelor of Science in Electrical Engineering, GPA 4.00 — Expected
+            Graduation May 2029
+          </p>
+
+          <h2>Skills</h2>
+          <div class="skills-block">
+            <p>
+              <strong>Programming:</strong> Java, Python, C, C#, JavaScript,
+              Node.js, CSS, HTML, Arduino IDE<br />
+              <strong>Platforms:</strong> Google Developer Platform, Google Tag
+              Analytics, Firebase, Excel<br />
+              <strong>Hardware:</strong> Raspberry Pi, Arduino, soldering,
+              multimeter testing<br />
+              <strong>Software:</strong> Fusion 360 (certified), SolidWorks
+              (proficient), GitHub, Excel, Wix<br />
+              <strong>Languages:</strong> English (fluent), Portuguese (fluent),
+              Spanish (advanced), Japanese (beginner)
+            </p>
+          </div>
+
+          <h2>Experience</h2>
+          <h3>Engineering Volunteer</h3>
+          <p class="resume-meta">
+            EasterSeals Disability &amp; Community Services — Philadelphia, PA ·
+            September 2023 – June 2024
+          </p>
+          <p>
+            Nonprofit dedicated to providing accessibility services and devices to
+            physically impaired adults and children.
+          </p>
+          <ul>
+            <li>
+              Designed, assembled, inspected and tested 50+ custom electronic
+              devices, ensuring safety compliance and operational reliability.
+            </li>
+            <li>
+              Performed preventive maintenance and troubleshooting on electronic
+              hardware using schematics and multimeters.
+            </li>
+          </ul>
+
+          <h3>Warehouse Associate</h3>
+          <p class="resume-meta">
+            Pandemic Pantry — Philadelphia, PA · February 2025 – August 2025
+          </p>
+          <p>
+            Grocery warehouse specializing in packing large orders for customer
+            pickup.
+          </p>
+          <ul>
+            <li>
+              Loaded, unloaded, and stocked inventory in a high-volume distribution
+              environment, including operating pallet jacks.
+            </li>
+            <li>
+              Worked in indoor and outdoor conditions, including exposure to
+              varying weather and temperature conditions.
+            </li>
+          </ul>
+
+          <h3>Technical Lead</h3>
+          <p class="resume-meta">
+            The Acceptance Project — Philadelphia, PA · March 2025 – Present
+          </p>
+          <p>
+            Small startup-style college consulting organization focused on
+            admissions assistance for inner-city youth.
+          </p>
+          <ul>
+            <li>
+              Designed a web-based platform to support scheduling and content
+              delivery for college counseling services for 30+ employees and
+              clients.
+            </li>
+            <li>
+              Built customized online application trackers for 5 students, with
+              individualized criteria and data.
+            </li>
+            <li>
+              Coordinated project requirements and system improvements with
+              cross-functional stakeholders.
+            </li>
+          </ul>
+
+          <h3>Fellow, Murphy Laboratory</h3>
+          <p class="resume-meta">
+            The Wistar Institute — Philadelphia, PA · June 2024 – August 2024
+          </p>
+          <p>
+            Cancer research laboratory focused on personalized treatments.
+          </p>
+          <ul>
+            <li>
+              Executed 20+ laboratory experiments following strict safety and
+              procedural protocols.
+            </li>
+            <li>
+              Documented experimental processes and verified results to ensure
+              data accuracy and research quality standards.
+            </li>
+          </ul>
+
+          <h2>Projects</h2>
+          <h3>Autonomous Robotics Project</h3>
+          <p class="resume-meta">Fall 2025</p>
+          <p>
+            Two-person team programming robot to navigate mazes, perform
+            autonomous delivery, and simulate tasks like parallel parking.
+          </p>
+          <ul>
+            <li>
+              Developed modular control software (1000+ lines of Python) to
+              support autonomous navigation systems operating under real-world
+              physical and environmental constraints.
+            </li>
+            <li>
+              Conducted 100+ structured test runs, collected performance data,
+              and analyzed reliability metrics to improve system functionality and
+              reduce operational error rates.
+            </li>
+          </ul>
+
+          <h3>Where2Whizz</h3>
+          <p class="resume-meta">Fall 2024 – Spring 2025</p>
+          <p>
+            Interactive map of public bathrooms across multiple countries. View at
+            <a href="https://where2whizz.com" target="_blank" rel="noopener noreferrer"
+              >where2whizz.com</a
+            >.
+          </p>
+          <ul>
+            <li>
+              Wrote 1500+ lines of JavaScript, HTML, and CSS to design an
+              intuitive and accessible graphical user interface.
+            </li>
+            <li>
+              Integrated JSON and REST APIs to build a backend allowing for
+              crowdsourced data to be displayed geospatially.
+            </li>
+          </ul>
+        </article>
+      </section>
+
+      <!-- CONTACT SECTION -->
+      <section id="contact">
+        <h1 class="page-title">Contact</h1>
+
+        <div class="contact-grid">
+          <article class="exp-card">
+            <h3 style="margin-top: 0">Email</h3>
+            <p>
+              <a href="mailto:tnunesueno3@gatech.edu">tnunesueno3@gatech.edu</a>
+            </p>
+          </article>
+
+          <article class="exp-card">
+            <h3 style="margin-top: 0">Phone</h3>
+            <p>
+              <a href="tel:+12065029832">+1 (206) 502-9832</a>
+            </p>
+          </article>
+
+          <article class="exp-card">
+            <h3 style="margin-top: 0">LinkedIn</h3>
+            <p>
+              <a href="https://www.linkedin.com/in/twyla-nunes-ueno-656a4432a/">Twyla Nunes-Ueno</a>
+            </p>
+          </article>
+
+          <article class="exp-card">
+            <h3 style="margin-top: 0">GitHub</h3>
+            <p>
+              <a href="https://github.com/tnunesueno">tnunesueno</a>
+            </p>
+          </article>
+        </div>
+      </section>
+    </main>
 
     <footer class="site-footer">
       <p style="margin-top: 1rem">
