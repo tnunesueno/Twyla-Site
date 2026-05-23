@@ -663,6 +663,22 @@ main {
   margin: 1.5rem 0 2rem;
 }
 
+.resume-viewer {
+  width: 100%;
+  max-width: 100%;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: var(--surface);
+  margin-bottom: 2rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.resume-viewer iframe {
+  display: block;
+  width: 100%;
+}
+
 .btn {
   display: inline-flex;
   align-items: center;
