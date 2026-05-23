@@ -93,17 +93,17 @@ window.PORTFOLIO_DATA = {
       links: [],
       images: [
         {
+          src: "PXL_20260407_161245951.jpg",
+          alt: "A humanoid robot sculpture exhibited indoors, used here as a thematic visual for robotics work.",
+          caption:
+            "Training my model!",
+        },
+        {
           src: "PXL_20260416_021545230.jpg",
           alt: "A humanoid robot sculpture exhibited indoors, used here as a thematic visual for robotics work.",
           caption:
             "I finally laser cut a stand for it.",
         },
-        {
-          src: "PXL_20260407_161245951.jpg",
-          alt: "A humanoid robot sculpture exhibited indoors, used here as a thematic visual for robotics work.",
-          caption:
-            "Training my model!",
-        }, //
         {
           src: "Screenshot 2026-04-22 173312.png",
           alt: "A humanoid robot sculpture exhibited indoors, used here as a thematic visual for robotics work.",
@@ -120,7 +120,7 @@ window.PORTFOLIO_DATA = {
           src: "Screenshot 2026-04-22 171522.png",
           alt: "A humanoid robot sculpture exhibited indoors, used here as a thematic visual for robotics work.",
           caption:
-            "Code snippet from the Arduino side.",
+            "Code snippet from the Arduino side. The data (mostly class numbers) came from a serial connection with my p5.js code running in a browser window.",
         },
       ],
       overviewParagraphs: [
