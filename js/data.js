@@ -203,8 +203,14 @@ window.PORTFOLIO_DATA = {
       tagline:
         "Complex machine built to make the simplest task complicated.",
       tech: ["Fusion360", "Arduino"],
-      links: [],
+      links: ["https://www.youtube.com/watch?v=DrjAWb7mQqc"],
       images: [
+        {
+          src: "Screenshot 2026-04-14 143456.png",
+          alt: "CAD model",
+          caption:
+            "Our ful CAD model",
+        },
         {
           src: "PXL_20240307_132208115.jpg",
           alt: "One section of machine",
@@ -216,12 +222,6 @@ window.PORTFOLIO_DATA = {
           alt: "Full machine",
           caption:
             "The machine fully assembled",
-        },
-        {
-          src: "Screenshot 2026-04-14 143456.png",
-          alt: "CAD model",
-          caption:
-            "Our ful CAD model",
         },
       ],
       overviewParagraphs: [
@@ -239,17 +239,17 @@ window.PORTFOLIO_DATA = {
       tech: ["Fusion360, Arduino"],
       links: [],
       images: [
+         {
+          src: "Screenshot 2026-03-30 211344.png",
+          alt: "Schematic",
+          caption:
+            "A diagram of our schematic.",
+        },
         {
           src: "Attachment.png",
           alt: "A person wearing an arduino duct taped to their chest.",
           caption:
             "My groupmate ready to test our device.",
-        },
-        {
-          src: "Screenshot 2026-03-30 211344.png",
-          alt: "Schematic",
-          caption:
-            "A diagram of our schematic.",
         },
       ],
       overviewParagraphs: [
