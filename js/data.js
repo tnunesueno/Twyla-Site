@@ -203,7 +203,7 @@ window.PORTFOLIO_DATA = {
       tagline:
         "Complex machine built to make the simplest task complicated.",
       tech: ["Fusion360", "Arduino"],
-      links: ["https://www.youtube.com/watch?v=DrjAWb7mQqc"],
+      links: [{href: "https://www.youtube.com/watch?v=DrjAWb7mQqc", label: "Watch our machine in action!"}],
       images: [
         {
           src: "Screenshot 2026-04-14 143456.png",
